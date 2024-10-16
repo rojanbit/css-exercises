@@ -11,10 +11,14 @@ body {
 
 .title {
   background: #e3f4ff;
+  margin: 8px auto;
+  font-size: 16px;
 }
 
 .content {
   background: #e3f4ff;
+  margin: 8px auto;
+  margin: 16px top, bottom;
 }
 
 .button-container {
@@ -24,4 +28,6 @@ body {
 button {
   background: white;
   border: 1px solid #eee;
+  margin: 8p auto;
+  margin: 24px left, right;
 }
