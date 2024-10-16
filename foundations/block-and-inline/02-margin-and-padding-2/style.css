@@ -7,27 +7,37 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px;
+  /* Hier Padding hinzugefügt*/
 }
 
 .title {
   background: #e3f4ff;
-  margin: 8px auto;
+  margin-bottom: 8px;
   font-size: 16px;
+  padding: 8px;
+  /* Erst Abstand des Elements nach unten, dann Font-Größe, dann Abstände zur Schrift*/
 }
 
 .content {
   background: #e3f4ff;
-  margin: 8px auto;
-  margin: 16px top, bottom;
+  margin-bottom: 8px;
+  padding: 16px 8px;
+  /* Padding erst Abstand nach oben und unten, dann zu den Seiten*/
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+  padding: 8px;
+  
 }
 
 button {
   background: white;
   border: 1px solid #eee;
-  margin: 8p auto;
-  margin: 24px left, right;
+  display: block;
+  margin: 0 auto;
+  padding: 8px 24px;
+  /* display: block macht Element sichtbar und fügt einen Zeilenabstand hinzu. margin: 0 auto zentriert das Element */
 }
